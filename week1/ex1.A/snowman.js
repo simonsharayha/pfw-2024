@@ -1,6 +1,6 @@
 let grid = undefined;
-let stroke1 = ("enter basic color name in lower case", "black")
-let stroke2 = ("enter another color name in lower case", "black")
+let stroke1 = prompt ("enter basic color name in lower case", "black")
+let stroke2 = prompt ("enter another color name in lower case", "black")
 function setup() {
     createCanvas(1600,900);
     background("#aff1ff");
