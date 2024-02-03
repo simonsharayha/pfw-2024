@@ -20,7 +20,7 @@ function makeArm (rotateBy) {
     line(alt + 10, alt - 10, 50, 100);
     stroke(55, 150, 400);
     strokeWeight(0.1);
-    bezier(alt - 100, alt + 100, 50, 160, 60, 100, 100, 350);
+    bezier(alt - 100, alt + 100, 50, 160, 60, 10, alt +100, 300);
     ellipse(alt + 100, alt - 170, 200);
     ellipse(alt + 10, alt - 10, 30);
    
