@@ -12,7 +12,10 @@ function draw() {
     rectX++;
     if(rectX > width) {
         noLoop();
-        text('Your score was '+ clickCount, 100, 300)
+        textSize(32);
+        fill(255);
+        textAlign(CENTER);
+        text('Your score was ' + clickCount, width / 2, height / 2);
     }
 }
 
