@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    padding-left: 350px;
+    font-family: "Marvel", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
