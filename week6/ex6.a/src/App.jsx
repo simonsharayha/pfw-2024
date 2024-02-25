@@ -21,7 +21,7 @@ function App() {
           <li key={index}>{fact}</li>
         ))}
       </ul>
-      <h2>one of the last two of your facts</h2>
+      <h2>one of the last two of the facts</h2>
       <p>{llamaFacts.length > 3 ? llamaFacts[llamaFacts.length - 2] : llamaFacts[llamaFacts.length - 1]}</p>
     </>
   )
