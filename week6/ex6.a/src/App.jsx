@@ -1,33 +1,28 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const llamaFacts = [
+    "Llamas Have Been Used as Pack Animals for Centuries",
+    "They Show Displeasure",
+    "They Differ From Alpacas",
+    "They Communicate by Humming",
+    "They Make Good Guard Animals",
+    "They're Easy Keepers"
+    ];
 
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <h1>Llama Facts</h1>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <ul>
+      {llamaFacts.map((fact, index) => (
+          <li key={index}>{fact}</li>
+        ))}
+      </ul>
+      <h2>one of the last two of your facts</h2>
+      <p>{llamaFacts.length > 3 ? llamaFacts[llamaFacts.length - 2] : llamaFacts[llamaFacts.length - 1]}</p>
     </>
   )
 }
