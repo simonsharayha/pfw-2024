@@ -1,0 +1,43 @@
+/* App.css */
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.animal-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.animal {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+.animal img {
+  max-width: 100%;
+  height: auto;
+}
+
+.animal button {
+  padding: 10px 20px;
+  margin: 10px 10px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  color: black;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.animal button:focus {
+  outline: none;
+}
+
+.animal button:hover {
+  background-color: #0056b3;
+  color: #f9f9f9;
+}
