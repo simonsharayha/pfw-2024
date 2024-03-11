@@ -1,0 +1,14 @@
+.collection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap :wrap;
+}
+.page {
+    max-width: 1920px;
+    margin:0 auto ;
+}
+
+body{
+    background-image: url('.\assets\background.png');
+    background-size: cover;
+}
