@@ -1,0 +1,9 @@
+/* form related */
+fieldset {
+    margin-bottom: 1em;
+  }
+  
+  input[type=checkbox] {
+    margin-right: 5px;
+    margin-left: 20px
+  }
