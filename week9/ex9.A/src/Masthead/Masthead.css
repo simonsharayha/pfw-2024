@@ -1,0 +1,12 @@
+.masthead {
+max-width: 1920px;
+width: 100%;
+text-align: center;
+margin: auto;
+}
+
+h1 {
+font-size: 3rem;
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+}
