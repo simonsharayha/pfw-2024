@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* App.css */
+/* Navigation bar style */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  overflow: hidden;
+  text-align: center; /* Center the navigation */
+}
+
+/* Navigation link style */
+li {
+  display: inline-block; /* Display links horizontally */
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+li a:hover {
+  background-color: #555;
+  color:yellow;
+}
+
+/* Active link style */
+.active {
+  background-color: #555;
+}
+
+
