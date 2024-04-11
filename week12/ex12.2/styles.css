@@ -1,0 +1,35 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #dadada;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      margin-top: 50px;
+      color: #333;
+    }
+
+    .keyboard {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .key {
+      padding: 10px 20px;
+      margin: 10px;
+      border: 2px solid #333;
+      background-color: #fff;
+      color: #333;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      outline: none;
+    }
+    
+    .key:hover {
+      background-color: #c8c8c8;
+    }
